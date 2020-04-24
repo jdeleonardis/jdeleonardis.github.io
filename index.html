@@ -1,56 +1,84 @@
-
 <!DOCTYPE html>
 <html lang="en-us">
 
-  <head>
+<head>
 
-    <meta charset="UTF-8">
-    <title>Personal Page</title>
-    <link rel="stylesheet" href="css/default.css">
-    
-  </head>
+  <meta charset="UTF-8">
+  <!-- Responsive meta tag -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>James DeLeonardis</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <!-- My CSS -->
+  <link rel="stylesheet" type ="text/css" href ="css/style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>  
+</head>
 
-  <body>
-    <nav id="navbar">
-      <p id="name">James L DeLeonardis</p>
-      <a id="resume_link" href="https://www.w3schools.com">Resume</a>
-      <a id="portfolio_link" href="https://www.w3schools.com">Portfolio</a>
-      <a href="https://www.w3schools.com">
-        <img id="jay_image" src="Images/photo0.jpg" alt="James DeLeonardis Image">
-      </a>
-    </nav>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-dark fixed-top">
+    <a class="navbar-brand" id="navbar_name" href="#">James L DeLeonardis</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active mr-5">
+          <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active mr-5">
+          <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active mr-5">
+          <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+        </li>                
+      </ul>
+    </div>
+  </nav>
 
-    <article>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu auctor tellus. Nulla nec efficitur elit. Sed elementum ac purus non facilisis. Proin tortor orci, dignissim eget massa ac, congue pulvinar nisi. Donec tristique tristique feugiat. Quisque ornare porttitor libero, ac vulputate felis convallis vel. Quisque luctus sollicitudin est, sit amet vehicula enim efficitur iaculis. Maecenas finibus iaculis tortor, non eleifend felis lacinia nec. Pellentesque egestas ante at gravida semper. Sed id vehicula lacus, sit amet laoreet nisl. Sed ullamcorper lorem nec eros luctus sodales. Donec in scelerisque mi. Suspendisse accumsan ante vel semper placerat.
-      </p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu auctor tellus. Nulla nec efficitur elit. Sed elementum ac purus non facilisis. Proin tortor orci, dignissim eget massa ac, congue pulvinar nisi. Donec tristique tristique feugiat. Quisque ornare porttitor libero, ac vulputate felis convallis vel. Quisque luctus sollicitudin est, sit amet vehicula enim efficitur iaculis. Maecenas finibus iaculis tortor, non eleifend felis lacinia nec. Pellentesque egestas ante at gravida semper. Sed id vehicula lacus, sit amet laoreet nisl. Sed ullamcorper lorem nec eros luctus sodales. Donec in scelerisque mi. Suspendisse accumsan ante vel semper placerat.
-      </p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu auctor tellus. Nulla nec efficitur elit. Sed elementum ac purus non facilisis. Proin tortor orci, dignissim eget massa ac, congue pulvinar nisi. Donec tristique tristique feugiat. Quisque ornare porttitor libero, ac vulputate felis convallis vel. Quisque luctus sollicitudin est, sit amet vehicula enim efficitur iaculis. Maecenas finibus iaculis tortor, non eleifend felis lacinia nec. Pellentesque egestas ante at gravida semper. Sed id vehicula lacus, sit amet laoreet nisl. Sed ullamcorper lorem nec eros luctus sodales. Donec in scelerisque mi. Suspendisse accumsan ante vel semper placerat.
-      </p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu auctor tellus. Nulla nec efficitur elit. Sed elementum ac purus non facilisis. Proin tortor orci, dignissim eget massa ac, congue pulvinar nisi. Donec tristique tristique feugiat. Quisque ornare porttitor libero, ac vulputate felis convallis vel. Quisque luctus sollicitudin est, sit amet vehicula enim efficitur iaculis. Maecenas finibus iaculis tortor, non eleifend felis lacinia nec. Pellentesque egestas ante at gravida semper. Sed id vehicula lacus, sit amet laoreet nisl. Sed ullamcorper lorem nec eros luctus sodales. Donec in scelerisque mi. Suspendisse accumsan ante vel semper placerat.
-      </p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu auctor tellus. Nulla nec efficitur elit. Sed elementum ac purus non facilisis. Proin tortor orci, dignissim eget massa ac, congue pulvinar nisi. Donec tristique tristique feugiat. Quisque ornare porttitor libero, ac vulputate felis convallis vel. Quisque luctus sollicitudin est, sit amet vehicula enim efficitur iaculis. Maecenas finibus iaculis tortor, non eleifend felis lacinia nec. Pellentesque egestas ante at gravida semper. Sed id vehicula lacus, sit amet laoreet nisl. Sed ullamcorper lorem nec eros luctus sodales. Donec in scelerisque mi. Suspendisse accumsan ante vel semper placerat.
-      </p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu auctor tellus. Nulla nec efficitur elit. Sed elementum ac purus non facilisis. Proin tortor orci, dignissim eget massa ac, congue pulvinar nisi. Donec tristique tristique feugiat. Quisque ornare porttitor libero, ac vulputate felis convallis vel. Quisque luctus sollicitudin est, sit amet vehicula enim efficitur iaculis. Maecenas finibus iaculis tortor, non eleifend felis lacinia nec. Pellentesque egestas ante at gravida semper. Sed id vehicula lacus, sit amet laoreet nisl. Sed ullamcorper lorem nec eros luctus sodales. Donec in scelerisque mi. Suspendisse accumsan ante vel semper placerat.
-      </p>    
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu auctor tellus. Nulla nec efficitur elit. Sed elementum ac purus non facilisis. Proin tortor orci, dignissim eget massa ac, congue pulvinar nisi. Donec tristique tristique feugiat. Quisque ornare porttitor libero, ac vulputate felis convallis vel. Quisque luctus sollicitudin est, sit amet vehicula enim efficitur iaculis. Maecenas finibus iaculis tortor, non eleifend felis lacinia nec. Pellentesque egestas ante at gravida semper. Sed id vehicula lacus, sit amet laoreet nisl. Sed ullamcorper lorem nec eros luctus sodales. Donec in scelerisque mi. Suspendisse accumsan ante vel semper placerat.
-      </p>  
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu auctor tellus. Nulla nec efficitur elit. Sed elementum ac purus non facilisis. Proin tortor orci, dignissim eget massa ac, congue pulvinar nisi. Donec tristique tristique feugiat. Quisque ornare porttitor libero, ac vulputate felis convallis vel. Quisque luctus sollicitudin est, sit amet vehicula enim efficitur iaculis. Maecenas finibus iaculis tortor, non eleifend felis lacinia nec. Pellentesque egestas ante at gravida semper. Sed id vehicula lacus, sit amet laoreet nisl. Sed ullamcorper lorem nec eros luctus sodales. Donec in scelerisque mi. Suspendisse accumsan ante vel semper placerat.
-      </p>                                        
-    </article>
-    <!-- <h1>This is a header 1</h1>
+  <main class="container"> <!--site body-->
+    <!-- Row 1 - About me -->
+    <div class="row align-items-center border-bottom border-dark">
+      <div class="col-lg-12 mt-3">
+        <header> <!-- semantics -->
+          <h3>About Me</h3> 
+        </header>
+      </div>
+    </div>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus labore ut, eum! Repellat, beatae dolorem minus sapiente iste nihil explicabo impedit eos consequuntur illum corporis autem vitae cum aperiam mollitia.</p>
+    <!-- Row 2 - Pic and paragraph -->    
+    <div class="row my-3">
+      <section class="col-lg-3"> <!--pic and social media icons-->
+        <!-- Responsive image -->
+        <img src="images/photo0.jpg" class="img-fluid" alt="Responsive image">
+        <div id="social_media_icons">
+          <a href="https://www.linkedin.com/in/james-deleonardis-2aba66132/" target="_blank" class="fa fa-linkedin"></a>        
+          <a href="https://github.com/jdeleonardis" target="_blank" class="fa fa-github"></a>              
+        </div>
+        jdeleonardis@hotmail.com
+        <br>
+        919-599-8859
+        <br>
+        <a href="https://drive.google.com/drive/folders/1EoBzBeLuYyZrhAZyqMd0qmbAl8GLv7qL" target="_blank">Resume</a>
+      </section>
 
-    <h2>This is a header 2</h2>
+      <section class="col-lg-9"> <!--about me words-->
+        <p>My name is Jay DeLeonardis and I am currently enrolled in .  I am a web developer from Hillsborough, North Carolina.  I specialize in making the most amazing websites.  Can't you tell?</p> 
+        <p>Duis suscipit mi magna, vel faucibus dui malesuada vel. Donec efficitur, lorem venenatis egestas volutpat, ipsum leo feugiat est, nec fringilla nisl tellus eu erat. Pellentesque ac purus ultrices, feugiat lorem ac, rhoncus neque. Suspendisse diam tellus, fermentum vitae erat at, sodales hendrerit ipsum. Vivamus commodo justo nec mi malesuada fermentum. Fusce accumsan vel eros quis rutrum. Nunc egestas finibus eros, et eleifend metus fringilla eget.</p>
+        <p>Sed accumsan sem sapien, quis dignissim dui laoreet at. Fusce a finibus leo, vel semper libero. Suspendisse potenti. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In sagittis et tortor ac consequat. Vestibulum nec pretium odio, pretium venenatis mauris. Aenean at tortor sed purus pharetra cursus. Donec in vehicula nunc. Morbi euismod placerat odio, sit amet luctus eros tempor vel. Donec dapibus, elit sit amet ultrices bibendum, mi eros ullamcorper ligula, egestas volutpat nisi risus sit amet nisi. Nunc arcu enim, varius vitae pharetra vitae, placerat et sapien. Aliquam a mi finibus, consequat est in, sollicitudin quam. Sed efficitur eros ligula, hendrerit aliquet felis fermentum ac. Curabitur tempus at eros vitae pulvinar.</p>
+      </section>      
+    </div>    
+  </main>
 
-    <ul>
-      <li>Test</li>
-      <li>Test</li>
-      <li>Test</li>
-      <li>Test</li>
-    </ul> -->
+  <footer class="footer fixed-bottom bg-light">  <!--sticky footer-->
+    <span class="text-muted">Copyright   Jay DeLeonardis   2020</span>
+  </footer>  
+</body>
 
-  </body>
 
 </html>
