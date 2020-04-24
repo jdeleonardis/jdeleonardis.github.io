@@ -1,10 +1,11 @@
 /* css for all webpages...body, containers, navbar, footer */
 body {
     padding-top: 65px;
-    background-image: url("../Images/quartz_background.jpg");
+    /* background-image: url("../Images/quartz_background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; */
+    background-color: rgb(201, 201, 201);
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;    
 }
