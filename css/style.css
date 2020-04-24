@@ -1,7 +1,7 @@
 /* css for all webpages...body, containers, navbar, footer */
 body {
     padding-top: 65px;
-    background-image: url("../images/quartz_background.jpg");
+    background-image: url("../Images/quartz_background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -11,10 +11,11 @@ body {
 
 body h3 {
   color: rgb(39, 58, 58);;
+  /* text-shadow: 2px 2px 3px #000000; */
 }
 
 .navbar {
-  background-color: rgb(39, 58, 58);
+  background-image: linear-gradient(to right, rgb(39, 58, 58) , rgb(65, 131, 109));
 }
 
 body h4 {
@@ -33,6 +34,10 @@ body p {
 #navbar_name {
     font-size: 30px;
     color: whitesmoke
+}
+
+.linkedWork {
+  font-size: medium;
 }
 
 .caption {
@@ -60,27 +65,17 @@ body p {
   }
   
   /* Add a hover effect */
-  .fa:hover {
+.fa:hover {
     opacity: 0.7;
   }
   
   /* Set a specific color for each brand */
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-
-  .fa-instagram {
-    background: #125688;
-    color: white;
-  }
-
-  .fa-linkedin {
+.fa-linkedin {
     background: #007bb5;
     color: white;
   }
 
-  .fa-github {
+.fa-github {
     background: limegreen;
     color: white;
   }
