@@ -10,11 +10,15 @@ body {
 }
 
 body h3 {
-    color: teal;
+  color: rgb(39, 58, 58);;
+}
+
+.navbar {
+  background-color: rgb(39, 58, 58);
 }
 
 body h4 {
-    color: teal;
+    color: rgb(39, 58, 58);;
 }
 
 body p {
@@ -28,7 +32,7 @@ body p {
 }
 #navbar_name {
     font-size: 30px;
-    color: teal;
+    color: whitesmoke
 }
 
 .caption {
@@ -36,7 +40,8 @@ body p {
 }
 
 .footer {
-    text-align: center;    
+    text-align: center;
+    background-color: rgb(39, 58, 58);
 }
 
 /* special css only for index.html*/
