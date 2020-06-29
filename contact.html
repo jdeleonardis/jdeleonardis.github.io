@@ -16,6 +16,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
   <!-- My CSS -->
   <link rel = "stylesheet" type ="text/css" href ="css/style.css"/>
+ 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>    
@@ -49,7 +50,7 @@
     <div class="row align-items-center border-bottom border-dark">
         <div class="col-md-12 mt-3">
           <header> <!-- semantics -->
-            <h3>Contact</h3> 
+            <h3>Contact   (PAGE UNDER CONSTRUCTION)</h3> 
           </header>
         </div>
     </div>
@@ -58,19 +59,19 @@
       <form class="needs-validation" novalidate>
           <div class="form-group mt-4">
               <label for="inputName">Name</label>
-              <input type="text" class="form-control" id="inputName" placeholder="John Smith">
+              <input type="text" class="form-control" id="inputName" placeholder="John Smith" disabled>
           </div> 
           <div class="form-group">
               <label for="emailAddress">Email</label>
-              <input type="email" class="form-control" id="emailAddress" placeholder="example@gmail.com">
+              <input type="email" class="form-control" id="emailAddress" placeholder="example@gmail.com" disabled>
           </div>                  
           <div class="form-group">
               <label for="textArea">Message</label>
-              <textarea class="form-control" id="textArea" rows="3"></textarea>
+              <textarea class="form-control" id="textArea" rows="3" disabled></textarea>
           </div> 
-          <button type="submit" class="btn btn-primary mb-3">Submit</button>               
+          <button type="submit" class="btn btn-primary mb-3" disabled aria-disabled="true">Submit</button>               
       </form>
-    </section>
+    </section>   
 
   </main>
 

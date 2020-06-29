@@ -10,17 +10,17 @@ body {
     font-weight: bold;    
 }
 
-body h3 {
+body h3 h4 {
   color: rgb(39, 58, 58);;
   /* text-shadow: 2px 2px 3px #000000; */
 }
 
-.navbar {
-  background-image: linear-gradient(to right, rgb(39, 58, 58) , rgb(65, 131, 109));
+.technologies {
+  font-size: medium;
 }
 
-body h4 {
-    color: rgb(39, 58, 58);;
+.navbar {
+  background-image: linear-gradient(to right, rgb(39, 58, 58) , rgb(65, 131, 109));
 }
 
 body p {
@@ -82,3 +82,9 @@ body p {
   }
 
   /*end css for index.html*/
+
+
+  button:disabled {
+    cursor: not-allowed;
+    pointer-events: all !important;
+  }
