@@ -32,7 +32,7 @@ function AboutMe() {
                 <p>Hello!  My name is Jay DeLeonardis and I am a web developer from Hillsborough, North Carolina.  I have spent nearly 25 years as a software developer, 
                     but have recently reimagined my career by enrolling in a Full Stack Developer program at the University of North Carolina.
                     This program is an intensive class covering
-                    all aspects of web development including HTML, CSS, Javascript, React.js, JQuery, AJAX, Express, Node, MongoDB, as well as using
+                    all aspects of web development including HTML, CSS, Javascript, React.js (which this portfolio is written in), JQuery, AJAX, Express, Node, MongoDB, as well as using
                     GitHub for project repositories and source control.
                 </p>
                 <p>
