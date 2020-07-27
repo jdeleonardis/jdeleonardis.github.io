@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.59154a8a.chunk.css",
+    "main.js": "/static/js/main.5275259a.chunk.js",
+    "main.js.map": "/static/js/main.5275259a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c34c0ec6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c34c0ec6.js.map",
+    "static/js/2.bfea3562.chunk.js": "/static/js/2.bfea3562.chunk.js",
+    "static/js/2.bfea3562.chunk.js.map": "/static/js/2.bfea3562.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c7bceaee2ce01db80686d1290baef3a6.js": "/precache-manifest.c7bceaee2ce01db80686d1290baef3a6.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.59154a8a.chunk.css.map": "/static/css/main.59154a8a.chunk.css.map",
+    "static/js/2.bfea3562.chunk.js.LICENSE.txt": "/static/js/2.bfea3562.chunk.js.LICENSE.txt",
+    "static/media/Day Planner.png": "/static/media/Day Planner.6cc5578d.png",
+    "static/media/Eat Da Burger.png": "/static/media/Eat Da Burger.de8fec87.png",
+    "static/media/Team Generator.png": "/static/media/Team Generator.5aefba0b.png",
+    "static/media/Weather Dashboard.png": "/static/media/Weather Dashboard.480e08d5.png",
+    "static/media/pantrybuddy.png": "/static/media/pantrybuddy.17b47ec9.png",
+    "static/media/photo0.jpg": "/static/media/photo0.c0eb0fc2.jpg",
+    "static/media/smsol.png": "/static/media/smsol.7607013a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c34c0ec6.js",
+    "static/js/2.bfea3562.chunk.js",
+    "static/css/main.59154a8a.chunk.css",
+    "static/js/main.5275259a.chunk.js"
+  ]
+}
