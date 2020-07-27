@@ -15,7 +15,7 @@ function Navbar() {
     
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
-                <li className="nav-item active mr-5">
+                <li className="nav-item mr-5">
                     <Link 
                         to="/" 
                         className={location.pathname === "/" ? "nav-link active" : "nav-link"}
@@ -23,7 +23,7 @@ function Navbar() {
                         About
                     </Link>
                 </li>
-                <li className="nav-item active mr-5">
+                <li className="nav-item mr-5">
                     <Link 
                         to="/portfolio" 
                         className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
@@ -31,7 +31,7 @@ function Navbar() {
                         Portfolio
                     </Link>                
                 </li>
-                <li className="nav-item active mr-5">
+                <li className="nav-item mr-5">
                     <Link 
                         to="/contact" 
                         className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
